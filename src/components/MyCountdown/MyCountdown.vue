@@ -74,14 +74,10 @@ export default {
 
 <style lang="scss" scoped>
 .my-countdown {
-  padding-top: 16rem;
   background: $color-5;
-  position: relative;
 
   &-container {
     margin: 0 auto;
-    z-index: 999;
-    position: relative;
     background: $color-5;
     height: 340px;
   }
@@ -89,7 +85,6 @@ export default {
   &-content {
     background: url('@/assets/img/contador.svg') center center no-repeat;
     background-size: contain;
-    position: absolute;
     left: calc(50% - 160px);
     z-index: 1000;
     width: 100%;

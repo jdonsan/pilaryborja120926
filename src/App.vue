@@ -11,10 +11,6 @@
     <div class="my-content" v-else>
       <my-cover />
       <my-countdown />
-      <my-place />
-      <my-ceremony />
-      <my-photos />
-      <my-celebration />
     </div>
   </div>
 </template>
@@ -22,10 +18,6 @@
 <script>
 import MyCover from './components/MyCover/MyCover'
 import MyCountdown from './components/MyCountdown/MyCountdown'
-import MyPlace from './components/MyPlace/MyPlace'
-import MyCeremony from './components/MyCeremony/MyCeremony'
-import MyPhotos from './components/MyPhotos/MyPhotos'
-import MyCelebration from './components/MyCelebration/MyCelebration'
 import MyLoading from './components/MyLoading/MyLoading'
 
 export default {
@@ -34,10 +26,6 @@ export default {
   components: {
     MyCover,
     MyCountdown,
-    MyPlace,
-    MyCeremony,
-    MyPhotos,
-    MyCelebration,
     MyLoading
   },
 
