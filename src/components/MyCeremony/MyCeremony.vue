@@ -1,0 +1,70 @@
+<template>
+  <section id="ceremony" class="my-ceremony">
+    <div class="my-ceremony-container">
+      <h2>La Ceremonia</h2>
+      <h3>Ayuntamiento de Alcalá de Henares</h3>
+
+      <my-container-center>
+        <my-tag>
+          <font-awesome-icon icon="fa-solid fa-clock" /> 18:15 - 19:00
+        </my-tag>
+      </my-container-center>
+
+      <img src="@/assets/img/ayuntamiento.png" alt="" />
+      <p>
+        La Ceremonia se hará en el <b>Ayuntamiento de Alcalá</b>, a escasos
+        metros del Parador donde nos alojaremos. Podréis ir andando sin
+        problemas mientras disfrutáis de la arquitectura de la zona
+        Universitaria de la ciudad.
+      </p>
+      <p>
+        La Ceremonia durará <b>30 minutos</b> y será un acto donde
+        formalizaremos nuestro matrimonio. Si queréis saber más de cómo será el
+        evento, pinchad en el enlace de 'Saber Más'.
+      </p>
+      <my-container-center>
+        <my-link
+          href="https://maps.app.goo.gl/CCncFsLic8H2pCKj8"
+          target="_blank"
+        >
+          <font-awesome-icon icon="fa-solid fa-location-dot" /> Ver Ubicación
+        </my-link>
+        <my-link
+          href="https://bodas.ayto-alcaladehenares.es/organizacion-ceremonia/"
+          target="_blank"
+        >
+          <font-awesome-icon icon="fa-solid fa-circle-info" /> Saber Más
+        </my-link>
+      </my-container-center>
+    </div>
+  </section>
+</template>
+
+<script>
+import MyContainerCenter from '@/components/MyContainerCenter/MyContainerCenter'
+import MyTag from '@/components/MyTag/MyTag'
+import MyLink from '@/components/MyLink/MyLink'
+
+export default {
+  name: 'MyCeremony',
+
+  components: {
+    MyContainerCenter,
+    MyTag,
+    MyLink
+  }
+}
+</script>
+
+<style lang="scss">
+.my-ceremony {
+  position: relative;
+
+  &-container {
+    margin: 0 auto;
+    z-index: 999;
+    position: relative;
+    background: $color-5;
+  }
+}
+</style>

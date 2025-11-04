@@ -1,0 +1,27 @@
+const path = require('path')
+const { defineConfig } = require('@vue/cli-service')
+
+module.exports = defineConfig({
+  publicPath: '/pilaryborja120926/',
+  transpileDependencies: true,
+  devServer: {
+    open: true
+  },
+  pwa: {
+    name: 'Pilar&Borja 12.09.2026',
+    themeColor: '#305137',
+    msTileColor: '#ffffff'
+  },
+  pluginOptions: {
+    'style-resources-loader': {
+      preProcessor: 'scss',
+      patterns: [path.resolve(__dirname, './src/assets/scss/main.scss')]
+    }
+  },
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: 'P&B 12.09.2026'
+    }
+  }
+})
