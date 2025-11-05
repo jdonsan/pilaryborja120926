@@ -4,7 +4,6 @@
       <div class="circle1"></div>
       <div class="circle2"></div>
     </div>
-    <span>Cargando</span>
   </div>
 </template>
 
@@ -58,7 +57,6 @@ export default {
     animation-duration: 2s;
     animation-name: change1;
     animation-iteration-count: infinite;
-    /*animation-direction: alternate;*/
   }
 
   .rhombus .circle2 {

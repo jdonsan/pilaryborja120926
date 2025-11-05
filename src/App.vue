@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <div v-if="!start" class="my-loading-page">
-      <div class="my-loading-page-container"></div>
-      <div class="my-loading-page-background"></div>
-      <div class="my-loading-page-center">
-        <my-loading v-if="loading" />
-        <button v-else @click="start = true">Abrir</button>
+      <my-loading v-if="loading" />
+      <div class="my-loading-content" v-else>
+        <p>Bienvenidos a la invitación de Pilar y Borja</p>
+        <button  @click="start = true">Abrir</button>
       </div>
     </div>
-    <div class="my-content" v-else>
+    <div class="my-content">
       <my-cover />
       <my-countdown />
     </div>
@@ -114,33 +113,27 @@ b {
     background: $color-1;
     height: 100vh;
     width: 100vw;
-    position: relative;
+    position: fixed;
+    opacity: 0.95;
+    z-index: 10000;
+    @include flex-center();
+  }
 
-    &-container {
+  .my-loading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    p {
+      font-size: 36px;
+      line-height: 36px;
+      font-family: $font-2;
+      font-weight: $weight-font-medium;
+      color: $color-5;
+      display: inline-block;
       width: 100%;
-      height: 100%;
-      background: url('@/assets/img/bg.webp');
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: no-repeat;
-      position: absolute;
-      z-index: 1;
-    }
-    &-background {
-      width: 100%;
-      height: 100%;
-      background: $color-1;
-      position: absolute;
-      z-index: 2;
-      opacity: 0.8;
-    }
-    &-center {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 3;
-      @include flex-center();
-      margin-top: -12rem;
     }
   }
 

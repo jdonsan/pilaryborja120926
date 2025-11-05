@@ -2,27 +2,28 @@
   <section class="my-countdown">
     <div class="my-countdown-container">
       <div class="my-countdown-content">
+        <img  class="my-countdown-picture" src="@/assets/img/contador-flores.webp" alt="">
         <h3>Faltan</h3>
 
         <div class="my-countdown-clock">
           <div class="my-countdown-clock-col">
             <span class="number">{{ days }}</span>
-            <span class="time">días</span>
+            <span class="time">DÍAS</span>
           </div>
 
           <div class="my-countdown-clock-col">
             <span class="number">{{ hours }}</span>
-            <span class="time">hs</span>
+            <span class="time">HS</span>
           </div>
 
           <div class="my-countdown-clock-col">
             <span class="number">{{ minutes }}</span>
-            <span class="time">min</span>
+            <span class="time">MIN</span>
           </div>
 
           <div class="my-countdown-clock-col">
             <span class="number">{{ seconds }}</span>
-            <span class="time">seg</span>
+            <span class="time">SEG</span>
           </div>
         </div>
       </div>
@@ -82,10 +83,17 @@ export default {
     height: 340px;
   }
 
+  &-picture {
+    position: absolute;
+    width: 170px;
+    top: -40px;
+    left: -10px;
+  }
+
   &-content {
+    position: relative;
     background: url('@/assets/img/contador.svg') center center no-repeat;
     background-size: contain;
-    left: calc(50% - 160px);
     z-index: 1000;
     width: 100%;
     max-width: 320px;
@@ -97,12 +105,12 @@ export default {
     flex-direction: column;
 
     h3 {
-      font-family: $font-2;
-      font-weight: $weight-font-regular;
-      color: $color-2;
+      font-family: $font-1;
+      font-weight: $weight-font-bold;
+      color: $color-1;
       width: 100%;
       text-align: center;
-      font-size: 40px;
+      font-size: 45px;
     }
   }
 
@@ -112,7 +120,7 @@ export default {
     margin: 1rem 0;
 
     &-col {
-      padding: 0 0.4rem;
+      padding: 0 8px;
       border-right: 1px solid #ccc;
 
       &:last-child {
@@ -125,16 +133,18 @@ export default {
       }
 
       .number {
-        font-size: 30px;
-        font-weight: $weight-font-bold;
+        font-size: 35px;
+        font-weight: $weight-font-medium;
+        font-family: $font-2;
         color: $color-1;
         margin-bottom: 0.5rem;
       }
 
       .time {
         font-size: 18px;
-        font-weight: $weight-font-regular;
-        color: $color-2;
+        font-weight: $weight-font-light;
+        font-family: $font-2;
+        color: $color-3;
       }
     }
   }
