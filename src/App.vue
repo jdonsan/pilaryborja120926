@@ -4,12 +4,13 @@
       <my-loading v-if="loading" />
       <div class="my-loading-content" v-else>
         <p>Bienvenidos a la invitación de Pilar y Borja</p>
-        <button  @click="start = true">Abrir</button>
+        <button @click="start = true">Abrir</button>
       </div>
     </div>
     <div class="my-content">
       <my-cover />
       <my-countdown />
+      <my-place />
     </div>
   </div>
 </template>
@@ -18,6 +19,7 @@
 import MyCover from './components/MyCover/MyCover'
 import MyCountdown from './components/MyCountdown/MyCountdown'
 import MyLoading from './components/MyLoading/MyLoading'
+import MyPlace from './components/MyPlace/MyPlace'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
   components: {
     MyCover,
     MyCountdown,
-    MyLoading
+    MyLoading,
+    MyPlace
   },
 
   data() {
@@ -58,13 +61,15 @@ html {
 
 h2 {
   font-family: $font-1;
-  font-weight: $weight-font-regular;
+  font-weight: $weight-font-bold;
   color: $color-1;
   width: 100%;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 45px;
+  line-height: 45px;
+  padding: 0 15px;
   margin-bottom: 0;
   text-align: center;
+  width: 100%;
 }
 
 p {

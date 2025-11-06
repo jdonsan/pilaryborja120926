@@ -3,7 +3,7 @@
     <div class="my-cover-container">
       <div class="my-cover-picture"></div>
       <div class="my-cover-content">
-        <img src="@/assets/img/curva-1.png" alt="">
+        <img src="@/assets/img/curva-1.png" alt="curva" />
         <div class="my-cover-content-container">
           <span class="my-cover-date">12.09.2026</span>
           <h1 class="my-cover-names">
@@ -26,7 +26,7 @@ export default {
 <style lang="scss" scoped>
 .my-cover {
   text-align: center;
-  
+
   &-container {
     margin: 0 auto;
   }
@@ -77,7 +77,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     span {
       display: flex;
       width: 100%;

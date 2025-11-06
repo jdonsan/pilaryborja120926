@@ -2,7 +2,11 @@
   <section class="my-countdown">
     <div class="my-countdown-container">
       <div class="my-countdown-content">
-        <img  class="my-countdown-picture" src="@/assets/img/contador-flores.webp" alt="">
+        <img
+          class="my-countdown-picture"
+          src="@/assets/img/contador-flores.webp"
+          alt="contador"
+        />
         <h3>Faltan</h3>
 
         <div class="my-countdown-clock">

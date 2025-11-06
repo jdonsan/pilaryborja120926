@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .my-link {
   display: inline-block;
   background: $color-2;
@@ -19,7 +19,7 @@ export default {
   font-weight: $weight-font-regular;
   padding: 1rem;
   border-radius: 5rem;
-  margin: 0.5rem;
+  margin: 0 0.5rem;
   text-decoration: none;
 
   &:hover {
