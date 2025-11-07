@@ -50,8 +50,8 @@ export default {
 <style lang="scss" scoped>
 .my-place {
   background: url('@/assets/img/curva-2.svg') center top no-repeat;
-  padding: 96px 0;
-  margin: 32px 0;
+  padding: 96px 0 48px;
+  margin: 32px 0 0;
   text-align: center;
 
   &-picture {
@@ -92,7 +92,7 @@ export default {
     width: 100%;
     font-size: 45px;
     line-height: 45px;
-    margin-bottom: 32px;
+    margin-bottom: 36px;
     text-align: center;
     width: 100%;
   }

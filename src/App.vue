@@ -3,6 +3,7 @@
     <div v-if="!start" class="my-loading-page">
       <my-loading v-if="loading" />
       <div class="my-loading-content" v-else>
+        <img class="my-loading-icon" src="@/assets/img/icon.png" alt="Icon" />
         <p>Bienvenidos a la invitación de Pilar y Borja</p>
         <button @click="start = true">Abrir</button>
       </div>
@@ -11,6 +12,7 @@
       <my-cover />
       <my-countdown />
       <my-place />
+      <my-day />
     </div>
   </div>
 </template>
@@ -20,6 +22,7 @@ import MyCover from './components/MyCover/MyCover'
 import MyCountdown from './components/MyCountdown/MyCountdown'
 import MyLoading from './components/MyLoading/MyLoading'
 import MyPlace from './components/MyPlace/MyPlace'
+import MyDay from './components/MyDay/MyDay'
 
 export default {
   name: 'App',
@@ -28,7 +31,8 @@ export default {
     MyCover,
     MyCountdown,
     MyLoading,
-    MyPlace
+    MyPlace,
+    MyDay
   },
 
   data() {
@@ -122,6 +126,11 @@ b {
     opacity: 0.95;
     z-index: 10000;
     @include flex-center();
+  }
+
+  .my-loading-icon {
+    width: 120px;
+    margin: 0 auto;
   }
 
   .my-loading-content {

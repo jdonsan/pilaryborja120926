@@ -9,7 +9,7 @@ module.exports = defineConfig({
   },
   pwa: {
     name: 'Pilar&Borja 12.09.2026',
-    themeColor: '#305137',
+    themeColor: '#B2A6D1',
     msTileColor: '#ffffff'
   },
   pluginOptions: {
