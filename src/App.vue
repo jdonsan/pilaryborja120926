@@ -4,8 +4,8 @@
       <my-loading v-if="loading" />
       <div class="my-loading-content" v-else>
         <img class="my-loading-icon" src="@/assets/img/icon.png" alt="Icon" />
-        <p>Bienvenidos a la invitación de Pilar y Borja</p>
-        <button @click="start = true">Abrir</button>
+        <p>Nuestro para siempre comienza</p>
+        <button @click="start = true">Aquí</button>
       </div>
     </div>
     <div class="my-content">
