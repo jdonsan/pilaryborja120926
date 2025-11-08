@@ -8,7 +8,7 @@
       <h2>El Gran Día</h2>
 
       <ul class="my-day-planning">
-        <li 
+        <li
           class="my-day-planning-item"
           v-for="(item, index) in planning"
           :key="index"
@@ -33,7 +33,7 @@ export default {
   data() {
     return {
       planning: [
-        { 
+        {
           img: 'icon-1.svg',
           time: '17:00 PM',
           title: 'Ceremonia'
@@ -96,7 +96,7 @@ export default {
     &-item {
       display: flex;
       align-items: center;
-      
+
       &-picture {
         padding: 16px 24px;
         border-right: 3px solid $color-2;
@@ -126,7 +126,7 @@ export default {
       &-content {
         padding: 23.5px;
         width: 100%;
-        
+
         h3 {
           text-align: left;
           font-family: $font-2;

@@ -16,11 +16,12 @@
 
       <p>
         La boda se celebrará en la preciosa finca de Montealvar, situada en el
-        corazón del bosque de Valdenazar, a las afueras de Guadalajara.
+        corazón del bosque de Valdenazar, en Valdeluz, a las afueras de
+        Guadalajara.
       </p>
       <p>
         Es un entorno natural con vistas al campo de golf y jardines románticos,
-        perfecto para disfrutar en compañía de todos vosotros de un día tan
+        perfecto para disfrutar en compañía de todos vosotros en un día tan
         especial para nosotros.
       </p>
 

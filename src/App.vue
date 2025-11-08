@@ -13,6 +13,7 @@
       <my-countdown />
       <my-place />
       <my-day />
+      <my-details />
     </div>
   </div>
 </template>
@@ -23,6 +24,7 @@ import MyCountdown from './components/MyCountdown/MyCountdown'
 import MyLoading from './components/MyLoading/MyLoading'
 import MyPlace from './components/MyPlace/MyPlace'
 import MyDay from './components/MyDay/MyDay'
+import MyDetails from './components/MyDetails/MyDetails'
 
 export default {
   name: 'App',
@@ -32,7 +34,8 @@ export default {
     MyCountdown,
     MyLoading,
     MyPlace,
-    MyDay
+    MyDay,
+    MyDetails
   },
 
   data() {
