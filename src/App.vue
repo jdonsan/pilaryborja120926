@@ -14,6 +14,8 @@
       <my-place />
       <my-day />
       <my-details />
+      <my-present />
+      <my-music />
     </div>
   </div>
 </template>
@@ -25,6 +27,8 @@ import MyLoading from './components/MyLoading/MyLoading'
 import MyPlace from './components/MyPlace/MyPlace'
 import MyDay from './components/MyDay/MyDay'
 import MyDetails from './components/MyDetails/MyDetails'
+import MyPresent from './components/MyPresent/MyPresent'
+import MyMusic from './components/MyMusic/MyMusic'
 
 export default {
   name: 'App',
@@ -35,7 +39,9 @@ export default {
     MyLoading,
     MyPlace,
     MyDay,
-    MyDetails
+    MyDetails,
+    MyPresent,
+    MyMusic
   },
 
   data() {

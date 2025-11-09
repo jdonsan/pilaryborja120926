@@ -39,22 +39,22 @@ export default {
           title: 'Ceremonia'
         },
         {
-          img: 'icon-2.png',
+          img: 'icon-2.svg',
           time: '18:30 PM',
           title: 'Cóctel'
         },
         {
-          img: 'icon-3.png',
+          img: 'icon-3.svg',
           time: '20:00 PM',
           title: 'Banquete'
         },
         {
-          img: 'icon-4.png',
+          img: 'icon-4.svg',
           time: '22:00 PM',
           title: 'Fiesta'
         },
         {
-          img: 'icon-5.png',
+          img: 'icon-5.svg',
           time: '00:00 PM',
           title: 'Fin (Salida Autobús)'
         }
@@ -102,6 +102,11 @@ export default {
         border-right: 3px solid $color-2;
         position: relative;
         height: 100%;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         $size: 16px;
 
         &::before {
@@ -117,9 +122,11 @@ export default {
         }
 
         img {
-          width: 64px;
-          height: 64px;
+          width: 48px;
+          height: 48px;
           object-fit: contain;
+          filter: brightness(0) saturate(100%) invert(42%) sepia(8%)
+            saturate(1163%) hue-rotate(235deg) brightness(92%) contrast(90%);
         }
       }
 
