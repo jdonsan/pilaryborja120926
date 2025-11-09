@@ -15,7 +15,7 @@
       <my-day />
       <my-details />
       <my-present />
-      <my-music />
+      <my-music v-if="start" />
     </div>
   </div>
 </template>
