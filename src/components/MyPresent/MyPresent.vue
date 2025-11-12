@@ -81,9 +81,10 @@ export default {
     color: $color-3;
     font-weight: $weight-font-light;
     font-size: 19px;
-    margin-bottom: 25px;
     line-height: 1.5;
     user-select: text;
+    width: 95%;
+    margin: 0 auto 25px;
   }
 
   .icon {
