@@ -8,7 +8,7 @@
     <button @click="openModal">Aquí</button>
 
     <div class="my-present-modal" v-if="isModalOpen">
-      <div class="my-present-modal-overlay"></div>
+      <div class="my-present-modal-overlay" @click="closeModal"></div>
       <div class="my-present-modal-content">
         <img class="flowers" src="@/assets/img/flores.webp" alt="flores icon" />
         <span class="my-present-modal-close" @click="closeModal">&times;</span>

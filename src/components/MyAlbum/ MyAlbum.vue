@@ -1,7 +1,7 @@
 <template>
   <section class="my-album">
     <div class="my-album-picture">
-       <img
+      <img
         class="curva"
         src="@/assets/img/curva-4.svg"
         alt="Finca Montealvar"
@@ -11,12 +11,12 @@
     <div class="my-album-container">
       <div class="my-album-content">
         <h2>Compartimos este dia junto a ti</h2>
-        
+
         <p>Comparte tus fotos y videos de este hermoso día</p>
-        
+
         <img class="my-album-icon" src="@/assets/img/icon.png" alt="Icon" />
         <h3>#pilaryborja</h3>
-        
+
         <my-link target="_blank" href="https://photos.app.goo.gl/XYZ12345ABCD">
           Ir a Álbum
         </my-link>
