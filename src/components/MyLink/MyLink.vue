@@ -12,6 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .my-link {
+  min-width: 200px;
   display: inline-block;
   background: $color-2;
   color: $color-5;

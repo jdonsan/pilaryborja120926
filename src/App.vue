@@ -14,8 +14,9 @@
       <my-place />
       <my-day />
       <my-details />
-      <my-present />
       <my-form />
+      <my-present />
+      <my-album />
       <my-footer />
       <my-music v-if="start" />
     </div>
@@ -33,6 +34,7 @@ import MyPresent from './components/MyPresent/MyPresent'
 import MyMusic from './components/MyMusic/MyMusic'
 import MyForm from './components/MyForm/MyForm'
 import MyFooter from './components/MyFooter/MyFooter'
+import MyAlbum from './components/MyAlbum/ MyAlbum'
 
 export default {
   name: 'App',
@@ -47,6 +49,7 @@ export default {
     MyPresent,
     MyMusic,
     MyForm,
+    MyAlbum,
     MyFooter
   },
 

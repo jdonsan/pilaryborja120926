@@ -1,6 +1,6 @@
 <template>
   <section class="my-form">
-    <h2 id="my-form">¡Tu información es muy importante!</h2>
+    <h2 id="my-form">¡Tu confirmación es muy importante!</h2>
     <img class="icon" src="@/assets/img/form.svg" alt="icono formulario" />
     <p>
       Nos ayudaría mucho que rellenases el siguiente formulario para crear un

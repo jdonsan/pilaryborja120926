@@ -33,7 +33,7 @@ export default {
   width: 80px;
   height: 80px;
   position: fixed;
-  z-index: 999;
+  z-index: 9999999;
   bottom: 0;
   right: 0;
   @include flex-center();

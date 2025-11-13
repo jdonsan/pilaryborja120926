@@ -50,7 +50,7 @@ export default {
 <style lang="scss" scoped>
 .my-present {
   background: url('@/assets/img/curva-6.svg') center top no-repeat;
-  padding: 96px 0 48px;
+  padding: 128px 0 48px;
   text-align: center;
 
   h2 {
