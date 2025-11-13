@@ -42,7 +42,11 @@
         <span class="my-details-modal-close" @click="closeModal">&times;</span>
 
         <div class="my-details-modal-icon">
-          <img class="icon" src="@/assets/img/autobus.svg" alt="icono autobús" />
+          <img
+            class="icon"
+            src="@/assets/img/autobus.svg"
+            alt="icono autobús"
+          />
         </div>
 
         <h3>Paradas</h3>
@@ -69,7 +73,7 @@ export default {
 
   data() {
     return {
-      isModalOpen: true,
+      isModalOpen: false,
       steps: [
         {
           name: 'Palacio del Infantado',
