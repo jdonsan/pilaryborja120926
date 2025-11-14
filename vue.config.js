@@ -21,7 +21,7 @@ module.exports = defineConfig({
   pages: {
     index: {
       entry: 'src/main.js',
-      title: 'P&B 12.09.2026'
+      title: 'Boda de Pilar y Borja ∞ 12.09.2026'
     }
   }
 })
