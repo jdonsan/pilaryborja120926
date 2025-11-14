@@ -29,10 +29,18 @@
         del entorno y la comodidad de estar en el mismo lugar de la celebración.
       </p>
       <p>
-        Si lo preferís, también tenéis la opción de hospedaros en el hotel PAX
+        Si lo preferís, también tenéis la opción de hospedaros en el Hotel PAX
         (4*), en el centro de Guadalajara.
       </p>
       <p>Para ambas opciones tenéis un 10% de descuento exclusivo.</p>
+
+      <my-link
+        href="https://paxhoteles.com/hotel-pax-guadalajara/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver Hotel PAX
+      </my-link>
     </article>
 
     <div class="my-details-modal" v-if="isModalOpen">
@@ -68,8 +76,14 @@
 </template>
 
 <script>
+import MyLink from '@/components/MyLink/MyLink'
+
 export default {
   name: 'MyDetails',
+
+  components: {
+    MyLink
+  },
 
   data() {
     return {

@@ -18,6 +18,7 @@
       <my-present />
       <my-album />
       <my-phone />
+      <my-name />
       <my-footer />
       <my-music v-if="start" />
       <my-refresh v-if="updateExists" @refresh="refreshApp" />
@@ -37,6 +38,7 @@ import MyPresent from './components/MyPresent/MyPresent'
 import MyForm from './components/MyForm/MyForm'
 import MyAlbum from './components/MyAlbum/ MyAlbum'
 import MyPhone from './components/MyPhone/MyPhone'
+import MyName from './components/MyName/MyName'
 import MyFooter from './components/MyFooter/MyFooter'
 import MyMusic from './components/MyMusic/MyMusic'
 import MyRefresh from './components/MyRefresh/MyRefresh'
@@ -57,6 +59,7 @@ export default {
     MyForm,
     MyAlbum,
     MyPhone,
+    MyName,
     MyFooter,
     MyMusic,
     MyRefresh

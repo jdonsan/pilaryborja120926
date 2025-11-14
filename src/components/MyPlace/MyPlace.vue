@@ -30,6 +30,7 @@
       <my-link
         target="_blank"
         href="https://www.google.com/maps/dir/?api=1&destination=Montealvar, Monasterio de Alcohete, s/n, 19139, Guadalajara"
+        rel="noopener noreferrer"
       >
         ¿Cómo llegar?
       </my-link>
