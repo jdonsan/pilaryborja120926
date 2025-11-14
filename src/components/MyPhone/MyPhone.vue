@@ -34,7 +34,7 @@ export default {
   computed: {
     womanImage() {
       return this.getImagePath(`woman-${this.womanImageCounter}.jpg`)
-    }, 
+    },
 
     manImage() {
       return this.getImagePath(`woman-${this.manImageCounter}.jpg`)

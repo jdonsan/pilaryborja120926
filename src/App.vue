@@ -20,11 +20,13 @@
       <my-phone />
       <my-footer />
       <my-music v-if="start" />
+      <my-refresh v-if="updateExists" @refresh="refreshApp" />
     </div>
   </div>
 </template>
 
 <script>
+import updateMixin from './mixins/update'
 import MyCover from './components/MyCover/MyCover'
 import MyCountdown from './components/MyCountdown/MyCountdown'
 import MyLoading from './components/MyLoading/MyLoading'
@@ -32,14 +34,17 @@ import MyPlace from './components/MyPlace/MyPlace'
 import MyDay from './components/MyDay/MyDay'
 import MyDetails from './components/MyDetails/MyDetails'
 import MyPresent from './components/MyPresent/MyPresent'
-import MyMusic from './components/MyMusic/MyMusic'
 import MyForm from './components/MyForm/MyForm'
 import MyAlbum from './components/MyAlbum/ MyAlbum'
 import MyPhone from './components/MyPhone/MyPhone'
 import MyFooter from './components/MyFooter/MyFooter'
+import MyMusic from './components/MyMusic/MyMusic'
+import MyRefresh from './components/MyRefresh/MyRefresh'
 
 export default {
   name: 'App',
+
+  mixins: [updateMixin],
 
   components: {
     MyCover,
@@ -49,11 +54,12 @@ export default {
     MyDay,
     MyDetails,
     MyPresent,
-    MyMusic,
     MyForm,
     MyAlbum,
     MyPhone,
-    MyFooter
+    MyFooter,
+    MyMusic,
+    MyRefresh
   },
 
   data() {
