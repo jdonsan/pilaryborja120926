@@ -17,7 +17,10 @@
         <img class="my-album-icon" src="@/assets/img/icon.png" alt="Icon" />
         <h3>#pilaryborja</h3>
 
-        <my-link target="_blank" href="https://photos.app.goo.gl/XYZ12345ABCD">
+        <my-link
+          target="_blank"
+          href="https://photos.app.goo.gl/sdmZhvMZFVWJVAoB6"
+        >
           Ir a Álbum
         </my-link>
       </div>
