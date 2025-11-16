@@ -52,13 +52,13 @@ export default {
 
     setImage() {
       setInterval(() => {
-        if (this.womanImageCounter > 3) {
+        if (this.womanImageCounter > 4) {
           this.womanImageCounter = 1
         } else {
           this.womanImageCounter = this.womanImageCounter + 1
         }
 
-        if (this.manImageCounter > 3) {
+        if (this.manImageCounter > 4) {
           this.manImageCounter = 1
         } else {
           this.manImageCounter = this.manImageCounter + 1
