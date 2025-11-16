@@ -3,8 +3,8 @@
     <h2 id="my-form">¡Tu confirmación es muy importante!</h2>
     <img class="icon" src="@/assets/img/form.svg" alt="icono formulario" />
     <p>
-      Nos ayudaría mucho que rellenases el siguiente formulario para crear un
-      día inolvidable
+      Nos ayudaría mucho que rellenases el siguiente formulario para organizar
+      un día inolvidable.
     </p>
     <button @click="toggle">
       {{ isFormOpen ? 'Cerrar' : 'Rellenar' }}

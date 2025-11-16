@@ -21,8 +21,8 @@
       </p>
       <p>
         Es un entorno natural con vistas al campo de golf y jardines románticos,
-        perfecto para disfrutar en compañía de todos vosotros en un día tan
-        especial para nosotros.
+        perfecto para disfrutar con vuestra compañía de un día tan especial para
+        nosotros.
       </p>
 
       <h4>DIRECCIÓN</h4>

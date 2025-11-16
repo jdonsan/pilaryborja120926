@@ -14,7 +14,7 @@
 
       <article class="my-phone-contact">
         <img :src="manImage" alt="Phone Icon" />
-        <p>+34 617 91 62 89</p>
+        <p>+34 637 96 30 29</p>
       </article>
     </div>
   </section>
@@ -37,7 +37,7 @@ export default {
     },
 
     manImage() {
-      return this.getImagePath(`woman-${this.manImageCounter}.jpg`)
+      return this.getImagePath(`man-${this.manImageCounter}.jpg`)
     }
   },
 

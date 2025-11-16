@@ -29,10 +29,13 @@
         del entorno y la comodidad de estar en el mismo lugar de la celebración.
       </p>
       <p>
-        Si lo preferís, también tenéis la opción de hospedaros en el Hotel PAX
+        Si lo preferís, también tendréis la opción de hospedaros en el Hotel PAX
         (4*), en el centro de Guadalajara.
       </p>
-      <p>Para ambas opciones tenéis un 10% de descuento exclusivo.</p>
+      <p>
+        Para ambas opciones, tenéis un descuento especial del 10%. Solo tenéis
+        que avisarnos con antelación para gestionarlo.
+      </p>
 
       <my-link
         href="https://paxhoteles.com/hotel-pax-guadalajara/"

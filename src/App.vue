@@ -4,7 +4,7 @@
       <my-loading v-if="loading" />
       <div class="my-loading-content" v-else>
         <img class="my-loading-icon" src="@/assets/img/icon.png" alt="Icon" />
-        <p>Nuestro para siempre comienza</p>
+        <p>Nuestro "para Siempre" comienza</p>
         <button @click="start = true">Aquí</button>
       </div>
     </div>

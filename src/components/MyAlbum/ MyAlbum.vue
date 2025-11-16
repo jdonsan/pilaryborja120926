@@ -10,9 +10,9 @@
 
     <div class="my-album-container">
       <div class="my-album-content">
-        <h2>Compartimos este dia junto a ti</h2>
+        <h2>Compartimos este día junto a ti</h2>
 
-        <p>Comparte tus fotos y videos de este hermoso día</p>
+        <p>Comparte tus fotos y vídeos de este inolvidable día</p>
 
         <img class="my-album-icon" src="@/assets/img/icon.png" alt="Icon" />
         <h3>#pilaryborja</h3>
