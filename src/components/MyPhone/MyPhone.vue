@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       womanImageCounter: 1,
-      manImageCounter: 2
+      manImageCounter: 1
     }
   },
 

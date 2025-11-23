@@ -35,11 +35,16 @@ export default {
     width: 100%;
     max-width: 768px;
     height: 120vw;
-    background-image: url('@/assets/img/bg.webp');
-    background-position: center center;
+    background-image: url('@/assets/img/bg.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-attachment: fixed;
+
+    @media (min-width: 769px) {
+      background-size: 768px auto;
+      height: 612px;
+    }
   }
 
   &-content {
