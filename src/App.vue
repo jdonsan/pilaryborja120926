@@ -171,13 +171,14 @@ b {
     text-align: center;
 
     p {
-      font-size: 36px;
+      font-size: 30px;
       line-height: 36px;
       font-family: $font-2;
       font-weight: $weight-font-medium;
       color: $color-5;
       display: inline-block;
-      width: 100%;
+      width: 95%;
+      margin: 8px auto;
     }
   }
 
