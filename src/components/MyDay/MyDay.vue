@@ -34,28 +34,33 @@ export default {
     return {
       planning: [
         {
+          img: 'icon-5.svg',
+          time: '12:30 (Por confirmar)',
+          title: 'Recogida (Salida Autobús)'
+        },
+        {
           img: 'icon-1.svg',
-          time: '17:00 PM',
+          time: '13:30',
           title: 'Ceremonia'
         },
         {
           img: 'icon-2.svg',
-          time: '18:30 PM',
+          time: '',
           title: 'Cóctel'
         },
         {
           img: 'icon-3.svg',
-          time: '20:00 PM',
+          time: '',
           title: 'Banquete'
         },
         {
           img: 'icon-4.svg',
-          time: '22:00 PM',
+          time: '',
           title: 'Fiesta'
         },
         {
           img: 'icon-5.svg',
-          time: '00:00 PM',
+          time: '23:00',
           title: 'Fin (Salida Autobús)'
         }
       ]

@@ -33,8 +33,8 @@
         (4*), en el centro de Guadalajara.
       </p>
       <p>
-        Para ambas opciones, tenéis un descuento especial del 10%. Solo tenéis
-        que avisarnos con antelación para gestionarlo.
+        Para ambas opciones, tenéis la posibilidad de disfrutar de un gran
+        descuento. Solo tenéis que avisarnos con antelación para gestionarlo.
       </p>
 
       <my-link
@@ -61,7 +61,8 @@
         </div>
 
         <h3>Paradas</h3>
-        <ul class="my-details-steps">
+        <p>Próximamente</p>
+        <ul class="my-details-steps" v-if="false">
           <li
             class="my-details-steps-item"
             v-for="(item, index) in steps"

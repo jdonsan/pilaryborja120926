@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       isModalOpen: false,
-      iban: 'ES12 3456 7890 1234 5678 9012'
+      iban: 'ES79 0182 5322 2302 0062 0668'
     }
   },
 

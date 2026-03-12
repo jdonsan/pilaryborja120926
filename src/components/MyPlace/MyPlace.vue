@@ -26,7 +26,7 @@
       </p>
 
       <h4>DIRECCIÓN</h4>
-      <p>Monasterio de Alcohete, Yebes (Guadalajara)</p>
+      <p>Monasterio de Alcohete, Valdeluz (Guadalajara)</p>
       <my-link
         target="_blank"
         href="https://www.google.com/maps/dir/?api=1&destination=Montealvar, Monasterio de Alcohete, s/n, 19139, Guadalajara"
