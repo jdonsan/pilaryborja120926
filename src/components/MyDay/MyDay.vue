@@ -35,7 +35,7 @@ export default {
       planning: [
         {
           img: 'icon-5.svg',
-          time: '12:30 (Por confirmar)',
+          time: '12:30',
           title: 'Recogida (Salida Autobús)'
         },
         {
@@ -60,7 +60,7 @@ export default {
         },
         {
           img: 'icon-5.svg',
-          time: '23:00',
+          time: '23:30',
           title: 'Fin (Salida Autobús)'
         }
       ]
