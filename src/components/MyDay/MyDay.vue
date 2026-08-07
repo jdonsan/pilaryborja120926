@@ -19,6 +19,7 @@
           <div class="my-day-planning-item-content">
             <p>{{ item.time }}</p>
             <h3>{{ item.title }}</h3>
+            <p v-if="item.subtitle">{{ item.subtitle }}</p>
           </div>
         </li>
       </ul>
@@ -36,7 +37,8 @@ export default {
         {
           img: 'icon-5.svg',
           time: '12:30',
-          title: 'Recogida (Salida Autobús)'
+          title: 'Salida Autobús',
+          subtitle: 'Parking Estación de Autobuses'
         },
         {
           img: 'icon-1.svg',
@@ -61,7 +63,8 @@ export default {
         {
           img: 'icon-5.svg',
           time: '23:30',
-          title: 'Fin (Salida Autobús)'
+          title: 'Fin',
+          subtitle: 'Salida Autobús'
         }
       ]
     }

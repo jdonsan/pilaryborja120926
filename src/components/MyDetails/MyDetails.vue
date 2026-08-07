@@ -61,8 +61,7 @@
         </div>
 
         <h3>Paradas</h3>
-        <p>Próximamente</p>
-        <ul class="my-details-steps" v-if="false">
+        <ul class="my-details-steps">
           <li
             class="my-details-steps-item"
             v-for="(item, index) in steps"
@@ -94,16 +93,12 @@ export default {
       isModalOpen: false,
       steps: [
         {
-          name: 'Palacio del Infantado',
-          dir: 'Plaza de España, 13'
+          name: 'Salida Autobús',
+          dir: 'Parking Estación de Autobuses'
         },
         {
-          name: 'Colegio Salesianos',
-          dir: 'Calle Toledo, 24'
-        },
-        {
-          name: 'Iglesia de San Diego de Alcalá',
-          dir: 'Avenida de El Atance, 1'
+          name: 'Parada Intermedia',
+          dir: 'Iglesia de San Ginés'
         }
       ]
     }
